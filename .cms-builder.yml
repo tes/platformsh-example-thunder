@@ -1,0 +1,5 @@
+post_build:
+  drush:
+    - 'si thunder --account-pass=admin -y'
+config_files:
+  web/sites/default/settings.local.php: web/sites/default/settings.local.php
